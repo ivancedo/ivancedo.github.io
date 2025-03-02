@@ -8,6 +8,13 @@
 
 如果您觉得这个项目有帮助，请考虑给我点个star～ ⭐️。
 
+## 基于这个模板构建的博客
+
+> 如果您想要构建自己的博客，我强烈建议您 fork 这个仓库并添加您自己的功能。
+
+- [Yujian's blog](https://blog.larryxue.dev/)
+- [Okaryo's blog](https://blog.okaryo.studio/)
+
 ## 目录
 
 - [特性](#特性)
@@ -155,10 +162,7 @@ astro-zen-blog/
 
 ## 功能路线图
 
-- [x] 搜索功能
-- [ ] 评论集成
-- [ ] 增强过渡和动画
-- [ ] ...更多
+这个项目几乎已经完成。如果您有任何建议或反馈，请随时打开一个 issue 或 pull request。
 
 ## 贡献
 

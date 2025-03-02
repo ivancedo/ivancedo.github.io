@@ -8,6 +8,14 @@ live demo: [Yujian's blog](https://blog.larryxue.dev/)
 
 If you find this project helpful, please consider giving it a star ⭐️.
 
+## Awesome Blogs built on top of this template
+
+> For who want to build their own blog, I strongly recommend you to fork this repo and add your own features. This repo is a simple and clean blog template.
+
+- [Yujian's blog](https://blog.larryxue.dev/)
+- [Okaryo's blog](https://blog.okaryo.studio/20241228-migrate-blog-from-gatsby-to-astro/)
+
+
 [中文Readme](./docs/README_CN.md)
 
 ## Table of Contents
@@ -157,10 +165,7 @@ astro-zen-blog/
 
 ## Features Roadmap
 
-- [x] Search functionality
-- [ ] Commenting Integration
-- [ ] Enhance Transition and Animation
-- [ ] ...and more
+This project is almost complete. If you have any suggestions or feedback, please feel free to open an issue or pull request.
 
 ## Contributing
 
