@@ -81,7 +81,7 @@ If you find this project helpful, please consider giving it a star ⭐️.
 export const siteConfig: SiteConfig = {
   site: "https://example.com/", // your site URL
   title: "Your Blog",
-  slogan: "Exploring the World and Me",
+  slogan: "Exploring the World with Code",
   description: "Write a description here",
   social: {
     github: "https://github.com/username",
