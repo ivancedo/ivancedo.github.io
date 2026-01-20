@@ -18,9 +18,6 @@ const posts = (await getCollection('blog'))
 						<h1 class="text-8xl font-bold leading-none">Iván Cedó</h1>
 						<p class="block text-3xl opacity-70 mt-9 mb-4">Telecomunication Engineering Student</p>
 		</div>
-		<p class="text-2xl max-w-2xl font-light leading-normal">
-			A simple theme for personal blog sites, created for Astro framework.
-		</p>
 		<div class="flex flex-wrap gap-8">
 			{
 				SocialLinks.map((link) => (
@@ -53,8 +50,8 @@ const posts = (await getCollection('blog'))
 		<div class="space-y-6">
 			<h2 class="section-title">About Me</h2>
 			<p class="text-lg max-w-xl pb-4">
-				A brief introduction about yourself. You can include your profession,
-				hobbies, interests, or anything you'd like visitors to know about you.
+				I’m a telecommunications engineering student based in Barcelona. 
+				I’m passionate about cybersecurity, with a focus on blue team–related topics.
 			</p>
 			<a class="btn-secondary" href={`${SITE_BASE}/about`}
 				>Go to About
@@ -63,13 +60,10 @@ const posts = (await getCollection('blog'))
 		</div>
 		<div class="space-y-6">
 			<h2 class="section-title">Get in touch</h2>
-			<p class="text-lg max-w-xl">
-				Use the buttons below for my resume & email.
-			</p>
 			<div class="flex flex-wrap mt-auto space-x-4">
 				<a
 					class="btn-primary"
-					href="mailto:example@email.com"
+					href="mailto:ivancedo09@gmail.com"
 					download
 					target="_blank"
 					>Get in touch
