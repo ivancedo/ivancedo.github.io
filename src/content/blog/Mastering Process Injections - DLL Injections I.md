@@ -18,7 +18,7 @@ DLL injection is a specialized code injection technique where a process — the 
 
 The fundamental concept here is execution context. When the target process loads the library, the injected code doesn't run in isolation — it executes within the target's virtual address space, inheriting its privileges, handles, and security tokens. In practice, this means malicious logic can operate under the guise of a legitimate process, significantly reducing its forensic footprint and bypassing basic security controls.
 
-<img src="../images/Image-1.png" alt="Image-1.png" width="638" height="340" class="jop-noMdConv">
+<img src="ivancedo.github.io\src\content\images\Image-1.png" alt="Image-1.png" width="638" height="340" class="jop-noMdConv">
 
 This is why DLL injection is such a recurring primitive in privilege escalation, persistence, and defense evasion. By blending into trusted system activity rather than appearing as a suspicious new process, the attacker makes the defender's job considerably harder — the resulting behavior appears to originate from a verified application, not from the malware itself.
 
@@ -67,7 +67,7 @@ BadHatch is a backdoor attributed to the FIN8 threat group, observed in operatio
 
 I analyzed a BadHatch sample that implements the CRT method directly. A few implementation details stand out as representative of how professional malware handles this technique, beyond the textbook version. In the
 
-<img src="../images/Image-2.png" alt="Image-2.png" width="757" height="456">
+<img src="ivancedo.github.io\src\content\images\Image-2.png" alt="Image-2.png" width="757" height="456">
 
 First, API functions are never imported transparently. Instead, BadHatch uses dynamic symbol resolution — calling `GetProcAddress()` and `LoadLibrary()` at runtime to locate the functions it needs. This obscures the import table and complicates static analysis.
 
@@ -251,7 +251,7 @@ Any one of these events in isolation might have a benign explanation. All three 
 
 In fact, if you execute the code from my repository and configure Sysmon with the rules discussed above, this is what you will observe in the Windows Event Viewer (the highlighted events correspond to the injector process performing the DLL injection into the target process).
 
-<img src="../images/Image-3.png" alt="Image-2.png" width="757" height="456">
+<img src="ivancedo.github.io\src\content\images\Image-3.png" alt="Image-3.png" width="757" height="456">
 
 ### Operational Considerations
 
