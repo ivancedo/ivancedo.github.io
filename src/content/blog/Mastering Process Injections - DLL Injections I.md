@@ -1,3 +1,11 @@
+---
+title: "Mastering Process Injections - DLL Injections I"
+description: "UUnderstanding DLL injection from a traditional perspective."
+date: 2025-02-26
+tags: ["DLL Injections", "Process Injections"]
+---
+
+
 Hi everyone, and welcome to my first post.
 
 My name is Iván, I'm a Telecommunications Engineering student and an aspiring cybersecurity professional. In this blog I'll be exploring technical cybersecurity topics with a practical and analytical approach.
