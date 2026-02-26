@@ -18,7 +18,7 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   site: "https://ivancedo.github.io", // your site url
-  title: "Your's blog",
+  title: "Iván's",
   slogan: "Cybersecurity Research and Insights",
   description: "A cybersecurity blog sharing research insights, threat analysis, and hands-on security projects.",
   social: {
