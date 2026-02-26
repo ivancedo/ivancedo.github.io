@@ -251,7 +251,7 @@ Any one of these events in isolation might have a benign explanation. All three 
 
 In fact, if you execute the code from my repository and configure Sysmon with the rules discussed above, this is what you will observe in the Windows Event Viewer (the highlighted events correspond to the injector process performing the DLL injection into the target process).
 
-<img src="/images/Image-1.png" alt="Image-3.png" width="757" height="456">
+<img src="/images/Image-3.png" alt="Image-3.png" width="757" height="456">
 
 ### Operational Considerations
 
