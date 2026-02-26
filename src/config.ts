@@ -19,8 +19,8 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   site: "https://ivancedo.github.io", // your site url
   title: "Your's blog",
-  slogan: "Exploring the World with Code",
-  description: "write a description here",
+  slogan: "Cybersecurity Research and Insights",
+  description: "A cybersecurity blog sharing research insights, threat analysis, and hands-on security projects.",
   social: {
     github: "https://github.com/ivancedo", // leave empty if you don't want to show the github
     linkedin: "https://www.linkedin.com/in/iv%C3%A1n-ced%C3%B3-marco-b8803b220/", // leave empty if you don't want to show the linkedin
