@@ -1,7 +1,7 @@
 ---
 title: "Mastering Process Injections: DLL Injections I"
 description: "Understanding DLL injection from a traditional perspective."
-date: 2025-02-26
+date: 2026-02-26
 tags: ["DLL Injections", "Process Injections"]
 ---
 
