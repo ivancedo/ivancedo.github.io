@@ -1,7 +1,7 @@
 ---
 title: "Mastering Process Injections: DLL Injections I"
 description: "Understanding DLL injections from a traditional perspective."
-date: 2026-04-07
+date: 2026-04-22
 tags: ["DLL Injections", "Process Injections", "Reverse Engineering", "Malware Analysis"]
 ---
 
